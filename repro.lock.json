@@ -57,7 +57,7 @@
   },
   "published_model": {
     "repo": "albucino/GLM-5.3-Flash-EXL3-3.05bpw",
-    "revision": "PENDING",
-    "note": "Model card, runtime snapshot and checkpoint lock; the weights are turboderp's files at the revision above."
+    "revision": "bdae1c559fc6194093a9dbb1c98df5aabd70d52c",
+    "note": "Model card, runtime snapshot and checkpoint lock; no weight files. The weights are turboderp's files at the checkpoint revision above. Later documentation-only commits do not change the runtime."
   }
 }
