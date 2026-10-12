@@ -1,0 +1,128 @@
+{
+ "schema_version": 1,
+ "repo": "turboderp/GLM-5.3-Flash-exl3",
+ "branch": "3.05bpw",
+ "revision": "332ab457b709b7ba30dd9a448be5de03b80a7ac9",
+ "files": {
+  ".config.json.kate-swp": {
+   "size": 115,
+   "sha256": "bbf38e90d83f69ccf35ca292b6b67b2a6d2d54e786ed5359179a773e85e506e4"
+  },
+  ".gitattributes": {
+   "size": 1696,
+   "sha256": "d3b10d515fb2bb0da69e29ec07a1e44296bd0dc1a51d1388be703a189d470cab"
+  },
+  "LICENSE": {
+   "size": 1070,
+   "sha256": "30b85b6b9659f2e78aa259f8faf5d920a68dee7c9ced3fa6dba1f19f2bc4fca1"
+  },
+  "README.md": {
+   "size": 7238,
+   "sha256": "4f46db37e6a7cbe3a494d6d7f616a96f4fffe6d1de68be361199a715c8d928fc"
+  },
+  "chat_template.jinja": {
+   "size": 8617,
+   "sha256": "41cff9af7b3a86c96751b107a8444f245fbda0bd5320b636a5bb1f7f4ba1a5c3"
+  },
+  "config.json": {
+   "size": 86509,
+   "sha256": "0bef79e79b28fa9c51d57c49bd53adc59005c916832879ad3f0862e284a7bc06"
+  },
+  "generation_config.json": {
+   "size": 194,
+   "sha256": "230c30609ecbbb9e6583bedde8e7bdda0c6eb8fe5fad0eaeb3d1b293d751cb4f"
+  },
+  "kpool_aux.safetensors": {
+   "size": 11548768,
+   "sha256": "39053cd051c75e81b7e608818111a4b4c3c57da540599089419fe11b51ca02d3"
+  },
+  "model-00001-of-00015.safetensors": {
+   "size": 8589636152,
+   "sha256": "6b6b96190a5114a55d058e3f4ae8a4350ac334dfcf804f61c39d5c6e40340ba4"
+  },
+  "model-00002-of-00015.safetensors": {
+   "size": 8588356452,
+   "sha256": "29fda4953918a156758169afa120929fdd35407860eddf5cad0cb747f65475ed"
+  },
+  "model-00003-of-00015.safetensors": {
+   "size": 8590179904,
+   "sha256": "9844130df84df3138706a0a708775c8d010a7ed370539880e327cac6bec7f2b7"
+  },
+  "model-00004-of-00015.safetensors": {
+   "size": 8588365508,
+   "sha256": "4f2a6fb68fb6cceab231d9c4a54b96174b4ec2b1bbf5cf042a6e4be37c739e29"
+  },
+  "model-00005-of-00015.safetensors": {
+   "size": 8588365508,
+   "sha256": "73cd6d0b5ba7f6d0ce23982729c6342d38114dd89d8a884a2fa08133ef52b47a"
+  },
+  "model-00006-of-00015.safetensors": {
+   "size": 8588365500,
+   "sha256": "160fcfc258b61c7aa7cbc27c4d6a33daee8bfe6dbb0e7dd5e73ce901789f391e"
+  },
+  "model-00007-of-00015.safetensors": {
+   "size": 8590186912,
+   "sha256": "a94f480c4256b7e5311b5384574471caff4f4fc0def8c3e1c57c411222cb1ce4"
+  },
+  "model-00008-of-00015.safetensors": {
+   "size": 8588365508,
+   "sha256": "e513ba853f8b8cb7dac8f17ff9f281787a63cc67daea15fc288591f93eec62f5"
+  },
+  "model-00009-of-00015.safetensors": {
+   "size": 8588365508,
+   "sha256": "825928573f534c09dc8e157356359bc525e883933777fa0d09d7a30a3f13d8b0"
+  },
+  "model-00010-of-00015.safetensors": {
+   "size": 8588365500,
+   "sha256": "f82170395c010c1b40b3695bcca439ac54445b268936ee71eb48c28f347d0d0d"
+  },
+  "model-00011-of-00015.safetensors": {
+   "size": 8590186912,
+   "sha256": "240ece46708e5c41aaf365bb2659ed7da2134bc12d9fa9b5393555c103228c6f"
+  },
+  "model-00012-of-00015.safetensors": {
+   "size": 8588365508,
+   "sha256": "2738042b40d05e144e54ed3c1013831d7dc156b694a1d68a49d55b25369ac8d9"
+  },
+  "model-00013-of-00015.safetensors": {
+   "size": 8588365508,
+   "sha256": "cf097956efdf8c307a6e560786445f1715c7bba9b2bddfb300f7346b1e1eb3ba"
+  },
+  "model-00014-of-00015.safetensors": {
+   "size": 8590694168,
+   "sha256": "1add7e6d8f4866e5aeecf77ac9ca2aacce3f071455fa9c167fa9bc678551c923"
+  },
+  "model-00015-of-00015.safetensors": {
+   "size": 2059162376,
+   "sha256": "d14a0087710b04a680f2d2a8769fa26f4e53dd3c1d5ce5391798ba25da1947f4"
+  },
+  "model.safetensors.index.json": {
+   "size": 15960981,
+   "sha256": "559538d5006f757c809ef0a545062c2f79abb0140667399d590af0da96f26735"
+  },
+  "mtp.safetensors": {
+   "size": 2862645889,
+   "sha256": "7274f06d75842edfa258830c836fd790a19324513134e05cd1e931929c4c384d"
+  },
+  "processor_config.json": {
+   "size": 909,
+   "sha256": "aae38374c94b08cc9b0547c6e64f05b951bd9735cea571c6988f5ed552bed3ed"
+  },
+  "quantization_config.json": {
+   "size": 47905678,
+   "sha256": "308d9a4b28407e2ada887f512bc8793c608586a73d9e0108ca258220ac714280"
+  },
+  "tokenizer.json": {
+   "size": 20217442,
+   "sha256": "19e773648cb4e65de8660ea6365e10acca112d42a854923df93db4a6f333a82d"
+  },
+  "tokenizer_config.json": {
+   "size": 761,
+   "sha256": "98b1271574f41abf89427ae2dda030d94dc9478f0edc5a8bd240db213c6fd5fc"
+  }
+ },
+ "kpool_aux_index": {
+  "note": "The upstream index omits the 22 sparse-indexer tensors stored in kpool_aux.safetensors; scripts/install_model.py adds them (json indent=2, sort_keys) and checks the result.",
+  "integrated_index_sha256": "713193366a4e6aef710947755abc58a2bbd90b8d7884163dc85f462f8645dd0e"
+ }
+}

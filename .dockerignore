@@ -1,0 +1,5 @@
+*
+!docker/
+!runtime/
+!configs/
+!scripts/serve-container.sh

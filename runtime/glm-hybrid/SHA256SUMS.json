@@ -1,0 +1,17 @@
+{
+ "csrc/bindings.cpp": "3aa712a70ef77c5fc06e2062fb3fb3b4abd8d0a6ad6667fd755b950c22981263",
+ "csrc/fast_bindings.cpp": "d3a08a2296fda9bc1c70eb59603b7eaa0002cfbe5f091e4d223367405e6ee96c",
+ "csrc/glm_fast.cu": "afc0ed323614d3072171e2a8c5a347b90be301577d841cda5fed8d399adc0c87",
+ "csrc/hybrid_bridge.cu": "253f8b4ef29c60487a6cf3b84a3923300d1d7e6083c11080bc7dc174a9f7a720",
+ "csrc/moe_mul1.cpp": "dbf3ef091468878bf5ee547e4afcf529ca7f9c93f38f237e73a9ab8da0a32eda",
+ "csrc/moe_mul1.h": "4d8f8a590de2b91b60fec270842d52585cc40f8bc85a06f42aa1252d9f766726",
+ "setup.py": "4faf70399e7824902bd014340b53d103cf91564291ab111e2412fc70df2d2546",
+ "setup_fast.py": "ccd3f9762b1d4b5a4dec6a3e7de852aeda6f49dfdfc4a66b0341deb54d7236b6",
+ "test_bf16io.py": "1db32c61e7632b8bbce276a7680409354540929b752f716d31d38c9abdc92a0d",
+ "test_hybrid.py": "53eb4645102e7bddc4b3933b66f5c1ab91b1a9224e943bff86a27488601ca592",
+ "test_mhc.py": "07620cfcdbf421d7dee20d1ead264a19db411755cb0dba46d67635f903fa5e1e",
+ "test_moe_split.py": "ac40bcd1dc75eee94086e069fffa9eaa2d18bd253d349234f145d00cc6ae8321",
+ "test_router.py": "417608e1b4e1adb2b9abc19503b21b8302e37b5f7e5c57a1d192e4178e8d52bd",
+ "test_submit_lru.py": "98e4db2a0303247184a318f46ef9a55e7aa9bb3bf9b77e2ca92e4da12587ab57",
+ "test_topk.py": "f5c742079aeeeaa463dbb97490b2cb4b58c12d98fe8fc27bd255e533cb1d5e23"
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "checkpoint": {
+    "base_model": "zai-org/GLM-5.3-Flash",
+    "quantized": {
+      "repo": "turboderp/GLM-5.3-Flash-exl3",
+      "branch": "3.05bpw",
+      "revision": "332ab457b709b7ba30dd9a448be5de03b80a7ac9",
+      "format": "EXL3 3.05 bpw (ExLlamaV3 trellis); weights used unchanged"
+    },
+    "files_lock": "runtime/model/checkpoint.lock.json",
+    "index_fix": {
+      "script": "scripts/install_model.py",
+      "added_index_entries": 22,
+      "integrated_index_sha256": "713193366a4e6aef710947755abc58a2bbd90b8d7884163dc85f462f8645dd0e"
+    }
+  },
+  "runtime": {
+    "container_image": "vllm/vllm-openai:qwen38-flash-next@sha256:fc120ece0a388cc0aa1caad4a9f1cd92113484ab7ec2fd0efadd62585be05bf8",
+    "vllm_version": "0.1.dev20073+g8e685d198",
+    "vllm_wheel_record_sha256": "c58e8a88b53f624c8768e8db9bc02a5269511ecf8086cf7ad34269cffe9706e5",
+    "vllm_overlay": {
+      "base": "spele1100/vllm-glm53@f2935ce3220e8b72ab7764f568fb9c96fb14e82a",
+      "files": 1380,
+      "manifest_sha256": "a5febe0651aafc6c7cd9db7aecd1d609b5e6213ef5ed1edc87729ffc81b5ba11"
+    },
+    "exllamav3": {
+      "repo": "https://github.com/turboderp-org/exllamav3",
+      "commit": "499890c75d20d8e7c9d061f37189ae611a5c9f0b",
+      "overlay_files": 28,
+      "manifest_sha256": "c325c91fdc008ba16cff47d84cb427ea172a1f982e2aa88049ce9a1c866d9c21"
+    },
+    "glm_hybrid": {
+      "files": 15,
+      "manifest_sha256": "784fa0507853998b56b3e652d15ec2b621b50fe069e291986241c52cd1ac5cf4"
+    },
+    "python_pins": {
+      "transformers": "5.16.1",
+      "tokenizers": "0.23.1",
+      "huggingface-hub": "1.29.0"
+    },
+    "cuda_arch": "8.6",
+    "kv_cache_dtype": "bfloat16",
+    "max_model_len": 262144,
+    "max_num_batched_tokens": 8192,
+    "tensor_parallel_size": 2,
+    "expert_parallel": false,
+    "pinned_expert_fraction": 0.2,
+    "lru_capacity_plan": "configs/lru-plan-2x3090-13312m-k3.json",
+    "prefix_caching": true,
+    "speculative_decoding": false
+  },
+  "validated_hardware": {
+    "gpus": "2x NVIDIA GeForce RTX 3090 24 GB, PCIe 4.0 x16, no NVLink",
+    "cpu": "AMD Threadripper PRO 5975WX (32 cores)",
+    "system_memory": "128 GB DDR4-3200, 8 channels"
+  },
+  "published_model": {
+    "repo": "albucino/GLM-5.3-Flash-EXL3-3.05bpw",
+    "revision": "PENDING",
+    "note": "Model card, runtime snapshot and checkpoint lock; the weights are turboderp's files at the revision above."
+  }
+}

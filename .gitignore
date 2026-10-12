@@ -1,0 +1,9 @@
+.env
+*.safetensors
+*.gguf
+*.bin
+*.so
+__pycache__/
+*.pyc
+build/
+/models/

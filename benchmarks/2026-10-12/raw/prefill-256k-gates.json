@@ -1,0 +1,28 @@
+{
+ "schema_version": 1,
+ "pass": true,
+ "results": [
+  {
+   "gate": "needles",
+   "prompt_tokens": 259999,
+   "requested": 260000,
+   "built_tokens": 259987,
+   "hits": {
+    "alpha": true,
+    "middle": true,
+    "omega": true
+   },
+   "all_needles": true,
+   "exact_json": true,
+   "seconds": 224.8,
+   "answer": "{\"alpha\": \"Kestrel-271828\", \"middle\": \"Citrine-314159\", \"omega\": \"Juniper-161803\"}"
+  },
+  {
+   "gate": "coherence",
+   "completion_tokens": 1024,
+   "unique_4gram_ratio": 1.0,
+   "pass": true,
+   "seconds": 31.9
+  }
+ ]
+}

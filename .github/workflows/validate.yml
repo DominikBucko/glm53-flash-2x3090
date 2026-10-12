@@ -1,0 +1,30 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate repository invariants
+        run: python scripts/validate_repo.py
+      - name: Run GPU-free regression tests
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Check Python syntax
+        run: >-
+          python -m compileall -q
+          scripts runtime/install_overlay.py runtime/glm53_host.py runtime/vllm-overlay runtime/glm-hybrid
+          tests
+      - name: Check shell syntax
+        run: bash -n scripts/*.sh

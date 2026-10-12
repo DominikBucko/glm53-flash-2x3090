@@ -1,0 +1,58 @@
+{
+ "schema_version": 1,
+ "pass": true,
+ "results": [
+  {
+   "gate": "needles",
+   "prompt_tokens": 32771,
+   "requested": 32768,
+   "built_tokens": 32759,
+   "hits": {
+    "alpha": true,
+    "middle": true,
+    "omega": true
+   },
+   "all_needles": true,
+   "exact_json": true,
+   "seconds": 33.0,
+   "answer": "{\"alpha\": \"Kestrel-271828\", \"middle\": \"Citrine-314159\", \"omega\": \"Juniper-161803\"}"
+  },
+  {
+   "gate": "needles",
+   "prompt_tokens": 131086,
+   "requested": 131072,
+   "built_tokens": 131074,
+   "hits": {
+    "alpha": true,
+    "middle": true,
+    "omega": true
+   },
+   "all_needles": true,
+   "exact_json": true,
+   "seconds": 227.6,
+   "answer": "{\"alpha\": \"Kestrel-271828\", \"middle\": \"Citrine-314159\", \"omega\": \"Juniper-161803\"}"
+  },
+  {
+   "gate": "needles",
+   "prompt_tokens": 259999,
+   "requested": 260000,
+   "built_tokens": 259987,
+   "hits": {
+    "alpha": true,
+    "middle": true,
+    "omega": true
+   },
+   "all_needles": true,
+   "exact_json": true,
+   "seconds": 478.8,
+   "answer": "{\"alpha\": \"Kestrel-271828\", \"middle\": \"Citrine-314159\", \"omega\": \"Juniper-161803\"}"
+  },
+  {
+   "gate": "coherence",
+   "completion_tokens": 1024,
+   "unique_4gram_ratio": 1.0,
+   "pass": true,
+   "seconds": 27.8
+  }
+ ]
+}

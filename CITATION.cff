@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "GLM-5.3-Flash 2x3090 reproducible runtime"
+message: "Cite this repository together with zai-org/GLM-5.3-Flash and turboderp/GLM-5.3-Flash-exl3."
+type: software
+authors:
+  - family-names: "Bucko"
+    given-names: "Dominik"
+version: 0.1.0
+license: Apache-2.0
+repository-code: "https://github.com/DominikBucko/glm53-flash-2x3090"
+keywords:
+  - glm-5.3
+  - exl3
+  - exllamav3
+  - vllm
+  - rtx-3090
+  - cpu-offloading
+  - moe
+  - 256k-context
